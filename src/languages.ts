@@ -1,9 +1,10 @@
 import de from './locales/de';
 import en from './locales/en';
 import mi from './locales/mi';
+import pl from './locales/pl';
 import { measurements } from './measurements';
 
-export const languages = { en, mi, de };
+export const languages = { en, mi, de, pl };
 
 export interface Unit {
     /** Short form of the measurement */
